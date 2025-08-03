@@ -1,0 +1,67 @@
+/* navbar  */
+:root {
+  --mainColor: #2c3e50;
+  --secColor: rgb(26, 188, 156);
+}
+/* ++++++++navbar++++++++++++ */
+
+.nav-link.active {
+  background-color: var(--secColor) !important;
+  padding-right: 0.5rem !important;
+  padding-left: 0.5rem !important;
+  border-radius: 10px;
+}
+
+.navbar {
+  background-color: var(--mainColor) !important;
+}
+.nav-link {
+  color: white !important;
+  margin-right: 30px;
+}
+/* +++++++foooooter++++++++ */
+.footer {
+  background-color: var(--mainColor) !important;
+  .copyRight {
+    background-color: #1a252f;
+  }
+}
+/* +++++++++star line++++++++++ */
+.line {
+  width: 100px;
+  height: 5px;
+  /* background-color: white; */
+}
+/* =====home====== */
+.homeContent,
+.aboutContent {
+  background-color: var(--secColor);
+}
+.iconContainer {
+  border: solid white !important;
+}
+/* ++++++++++++++portfolio++++++++++ */
+
+.layer {
+  opacity: 0;
+  background-color: transparent;
+  transition: opacity 0.5s ease-in-out, background-color 0.5s ease-in-out;
+  font-size: 100px !important;
+}
+
+.layer:hover {
+  background-color: var(--secColor) !important;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.overLay {
+  background-color: rgba(26, 188, 156, 0.3) !important;
+}
+/* ==========contact ============= */
+.contactInputs input:focus {
+  outline: none !important;
+}
+.contactBtn {
+  background-color: var(--secColor) !important;
+  border: var(--secColor);
+}
