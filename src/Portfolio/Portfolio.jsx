@@ -10,6 +10,7 @@ function Portfolio() {
     <>
       <div className="portfollioSection text-center ">
         <h1 className="pt-5 text-uppercase">portfolio component</h1>
+        <h2> this is portfilo</h2>
         <DarkStar />
         <div className="container position-relative">
           <div className="row g-3 p-5">
