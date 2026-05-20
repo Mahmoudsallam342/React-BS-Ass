@@ -5,7 +5,7 @@ function Contact() {
   return (
     <>
       <div className="contactPage text-center p-5">
-        <h1>conatct section</h1>
+        <h1>Michael</h1>
         <DarkStar />
         <div className="contactInputs   container w-50 p-5">
           <input
