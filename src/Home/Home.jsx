@@ -14,7 +14,7 @@ function Home() {
           </h1>
           <Star />
           <p className="text-white p-3">
-            Graphic Artist - Web Designer - Illustrator
+            Updated by @Mohamed Madyan
           </p>
         </div>
       </div>
